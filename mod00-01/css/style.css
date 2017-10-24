@@ -1,0 +1,39 @@
+body {
+	background-color: darkcyan;
+	background: url("../img/b4.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: blue;
+	font-family: 'Bree Serif';
+
+}
+p{
+	font-family: 'signika', sans-serif;
+	color: darkcyan;
+}
+h1{
+	font-size: 50px;
+	margin-bottom: 0;
+
+}
+h2{
+	text-transform: uppercase;
+	font-family: 'acme';
+	letter-spacing: 2px;
+}
+#me {
+	height: 200px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: cyan;
+	border-width: 10px;
+	margin-top: 50px;
+}
+.about {
+	width: 100%;
+}
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
