@@ -14,12 +14,14 @@ p{
 h1{
 	font-size: 50px;
 	margin-bottom: 0;
-
 }
 h2{
 	text-transform: uppercase;
 	font-family: 'acme';
 	letter-spacing: 2px;
+	margin-bottom: 0;
+	letter-spacing: 1px;
+	color: steelblue;
 }
 #me {
 	height: 200px;
@@ -31,6 +33,8 @@ h2{
 }
 .about {
 	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
 }
 .container {
 	width: 500px;
