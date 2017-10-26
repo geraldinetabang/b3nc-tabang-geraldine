@@ -6,6 +6,11 @@
 		<title>	My Second Website - This is the best website ever.</title>
 
 		<style type="text/css">
+			table, tr, th, td {
+				border-collapse: collapse;
+				border: 1px solid black;
+			}
+
 			.red {
 				color: red;
 			}
@@ -121,10 +126,29 @@
 
 		<hr>
 
+		<!-- transforming text to small-->
+		<p>Authors are encouraged to use their best judgement when determining whether to use <small> or CSS <small>Posted on April 30
+		</small></p>
+
+		<hr>
+
+		<!--Link formatting-->
+
 		<a href="https://mail.google.com">Google Mail</a>
 
 		<hr>
-		<!--Finish Link formatting-->
+
+		<a href="music/reviews.html">Reviews Page</a>
+		<a href="listings.html">Listings Page</a>
+		<a href="music/artists/index.html">Artists Page</a>
+
+
+		<hr>
+		<!--(a) stands for anchor-->
+		<a href="mailto:geraldine.tabang@gmail.com">E-mail us</a>
+		<a href="#top">Back to top</a>
+
+
 
 
 
@@ -148,7 +172,7 @@
 
 		<hr>
 
-		<!--Unordered List-->
+		<!--Unordered List (UL)-->
 		<h1>Ingredients</h1>
 		<ul>
 			<li>50g butter</li>
@@ -166,15 +190,14 @@
 			<ul>
 				<li>Cow</li>
 				<li>Cat</li>
-			<ul>
-				<li>Birds</li>
-				<li>Amphibians</li>
 			</ul>
-			</ul>
+			<li>Birds</li>
+			<li>Amphibians</li>
 		</ul>
 
 		<hr>
 
+		<!--Definition List-->
 		<dl>
 			<dt>Emphathy</dt>
 			<dd>the imaginative projection of a subjective state into an object so that object appears to be infused with it</dd>
@@ -182,5 +205,195 @@
 			<dt>Impanel</dt>
 			<dd>to choose people to serve on a jury</dd>
 		</dl>
+
+		<hr>
+
+		<!--Images must always contain alternate text or (alt tag)-->
+		<img src="img/test.png" alt="Starbound">
+
+		<hr>
+		<!--Tables- element is used to add tables to a web page. 
+			-Indicate the start of each row (table row) using the <tr></tr> tags and <td></td> for table data-->
+
+		<table>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+		</table>
+
+		<hr>
+		<!--Table Headings-->
+
+		<table>
+			<tr>
+				<th></th>
+				<th>Saturday</th>
+				<th>Sunday</th>
+			</tr>
+			<tr>
+				<th>Tickets Sold</th>
+				<td>120</td>
+				<td>135</td>
+			</tr>
+			<tr>
+				<th>Total Sales</th>
+				<td>$600</td>
+				<td>$675</td>
+			</tr>
+		</table>
+
+		<hr>
+		<!--Column Span-->
+		<table>
+			<tr>
+				<th></th>
+				<th>9 AM</th>
+				<th>10 AM</th>
+				<th>11 AM</th>
+			</tr>
+			<tr>
+				<th>Monday</th>
+				<td colspan="2">Geography</td>
+				<td>Math</td>
+			</tr>
+			<tr>
+				<th>Tuesday</th>
+				<td>Gym</td>
+				<td colspan="2">Home</td>
+			</tr>
+		</table>
+
+		<hr>
+
+		<table>
+			<tr>
+				<th></th>
+				<th>TV5</th>
+				<th>GMA</th>
+				<th>ABS-CBN</th>
+			</tr>
+			<tr>
+				<th>6 PM -7 PM</th>
+				<td rowspan="2">Cartoons</td>
+				<td>Comedy</td>
+				<td>News</td>
+			</tr>
+			<tr>
+				<th>7 PM - 8 PM</th>
+				<td>Sports</td>
+				<td>Current Affairs</td>
+			</tr>
+		</table>
+
+		<hr>
+		<!--FORMS- Allows to collect information from visitors to your site.
+			Form Controls- Adding Text (text input, password, radio buttons, drop-down boxes.)
+			-Submitting Forms (submit buttons, image buttons, file upload)
+
+			Form Structure- Form controls live inside a <form> element. This element should always have carry the action attribute and will usually have a method attribute, too
+
+			Action-Specifies where to send
+
+			Method:
+			-get
+			-post
+			-delete
+			-update
+
+			Required attributes:
+			*type - defines the type of form
+			*name-defines the unique identifier for that input within the form
+
+			The value of id must be equal to name.
+			ex: <form name="userDetails" id="userDetails">	-->
+
+		<form action="" method="">
+			<input type="text" name="userName">
+			<input type="password" name="passWord">
+
+			<hr>
+
+			<!--Radio Buttons-->
+			<input type="radio" name="genre1" value="rock">Rock
+			<input type="radio" name="genre2" value="pop">Pop
+			<input type="radio" name="genre3" value="jazz">Jazz	
+
+			<hr>
+
+			<!--Check boxes-->
+			<input type="checkbox" name="fruit" value="apple">Apple
+			<input type="checkbox" name="fruit" value="orange">Orange
+			<input type="checkbox" name="fruit" value="Melon">Melon
+
+			<hr>
+			
+			<!--e-mail-->
+
+			<input type="email" name="email">
+
+			<hr>
+
+			<!--input number only-->
+			<input type="number" name="contact">
+
+		</form>
+
+		<hr>
+
+		<!--Submit button-->
+		<form action="" method="">
+			<input type="text" name="username">
+			<input type="passWord" name="password">
+			<input type="submit" name="signIn" value="Sign In">
+			<input type="submit" name="signUp" value="Sign Up">
+		</form>
+		
+		<hr>
+		<!-- Drop-down menu. To set selected value, ex. Bench- use selected.-->
+		<form action="" method="">
+			<select name="brand">
+				<option value="uniqlo">Uniqlo</option>
+				<option value="bench" >Bench</option>
+				<option value="penshoppe" selected>Penshoppe</option>
+			</select>
+		</form>
+	
+		<hr>
+		<!--Don't add a line when using text area.-->
+		<form action="" method="">
+			<textarea></textarea>
+			<input type="file" name="song">
+			<input type="submit" name="song">
+		</form>
+
+		<hr>
+		<!--Clickable image-->
+		<form action="" method="">
+			<button>
+				<img src="img/test.png" alt="Starbound">
+			</button>
+		</form>
+
+		<hr>
+
+		<!--Submit buttons with labels-->
+		<form action="" method="">
+			<label for="username">Username</label>
+			<input type="text" name="username">
+
+			<label for="password">Password</label>
+			<input type="passWord" name="password">
+
+			<input type="submit" name="signIn" value="Sign In">
+			<input type="submit" name="signUp" value="Sign Up">
+		</form>
+
 	</body>	
 	</html>
