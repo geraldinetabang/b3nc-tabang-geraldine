@@ -140,24 +140,13 @@
 
 		<a href="music/reviews.html">Reviews Page</a>
 		<a href="listings.html" target="_blank">Listings Page</a>
-		<a id="artists" href="music/artists/index.html">Artists Page</a>
+		<a href="music/artists/index.html">Artists Page</a>
 
 
 		<hr>
 		<!--(a) stands for anchor-->
 		<a href="mailto:geraldine.tabang@gmail.com">E-mail us</a>
 		<a href="#top">Back to top</a>
-
-
-
-
-
-
-
-
-
-
-
 
 		<hr>
 		<!--Ordered List-->
@@ -394,6 +383,64 @@
 			<input type="submit" name="signIn" value="Sign In">
 			<input type="submit" name="signUp" value="Sign Up">
 		</form>
+
+		<hr>	
+			<!--Labelling Form Controls
+			Label-used to associate a text ;abel with a form <input> field.
+			- Can be used in 2 ways:-->
+
+		<fieldset>
+			<legend>Contact Details</legend>
+
+			<label for="email">Email</label>
+			<input type="email" name="email">
+
+			<label for="mobile">Mobile</label>
+			<input type="number" name="mobile">
+		</fieldset>
+
+		<hr>
+		<fieldset style="width: 20%;">
+			<legend>Your Details</legend>
+		<label for="name">Name</label>
+		<input type="name" name="name">
+		<div align="left">
+		<label for="email">Email</label>
+		<input type="email" name="email">
+		</div>
+		</fieldset>
+
+		<fieldset style="width: 20%;">
+			<legend>Your Review</legend>
+			<form action="" method="">
+				<label for="social_media">How did you hear about us?</label>
+				<select name="social_media">
+					<option value="google">Google</option>
+					<option value="facebook">Facebook</option>
+					<option value="instagram">Instagram</option>
+					<option value="blog">Blog</option>
+					<option value="website">Website</option>
+					<option value="referral">Referral</option>
+				</select>
+				<div align="left">
+				<label for="">Would you visit again?</label>
+				<input type="radio" name="answer1" value="yes">Yes
+				<input type="radio" name="answer2" value="No">No
+				<input type="radio" name="answer3" value="Maybe">Maybe
+				</div>
+
+				<label for="">Comments</label>
+				<form action="comments" method="">
+					<div align="left">
+					<textarea name="comments"></textarea>
+					</div>
+				</form>
+				<input type="checkbox" name="updates" value="signUp">Sign me up for updates.
+
+				<div align="left">
+				<input type="submit" name="review" value="Submit review">
+				</div>
+		</fieldset>
 
 	</body>	
 	</html>
