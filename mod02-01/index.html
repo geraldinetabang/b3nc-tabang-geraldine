@@ -402,7 +402,7 @@
 		<hr>
 
 		<!--Coding Challenge 1-->
-		<fieldset style="width: 20%;">
+		<fieldset style="width: 22%;">
 			<legend>Your Details:</legend>
 		<label for="name">Name:</label>
 		<input type="name" name="name" style="width: 80%;">
@@ -412,7 +412,7 @@
 		</div>
 		</fieldset>
 
-		<fieldset style="width: 20%;">
+		<fieldset style="width: 22%;">
 			<legend>Your Review:</legend>
 			<form action="" method="">
 				<label for="social_media">How did you hear about us?</label>
@@ -426,9 +426,9 @@
 				</select>
 				<div align="left">
 				<label for="">Would you visit again?</label>
-				<input type="radio" name="answer1" value="yes">Yes
-				<input type="radio" name="answer2" value="No">No
-				<input type="radio" name="answer3" value="Maybe">Maybe
+				<input type="radio" name="answer" value="yes">Yes
+				<input type="radio" name="answer" value="No">No
+				<input type="radio" name="answer" value="Maybe">Maybe
 				</div>
 
 				<label for="">Comments:</label>
@@ -444,5 +444,51 @@
 				</div>
 		</fieldset>
 
+		<hr>
+		<!--ANSWER TO CODING CHALLENGE-->
+			<form action="" method="" style="width: 50%">
+				<fieldset>
+					<legend>Your Details</legend>
+					<label for="name">Name</label>
+					<input type="text" name="name" size="40">
+					<br>
+					<label for="email">Email</label>
+					<input type="email" name="email" size="40">
+				</fieldset>
+
+				<fieldset>
+					<legend>Your Review</legend>
+					<label for="ads">How did you hear about us?</label>
+					<select name="ads">
+						<option>Google</option>
+						<option>Facebook</option>
+						<option>Instagram</option>
+						<option>Blog</option>
+						<option>Website</option>
+						<option>Referral</option>
+					</select>
+
+					<br>
+					
+					<label>Would you visit again?</label>
+					<label><input type="radio" name="visit">Yes</label>
+					<label><input type="radio" name="visit">No</label>
+					<label><input type="radio" name="visit">Maybe</label>
+
+					<br>
+					
+					<label>Comments</label>
+					<br>
+					<textarea rows="4" cols="45"></textarea>
+
+					<br>
+
+					<label><input type="checkbox" name="signup">Sign me up for email updates</label>
+
+					<br>
+					<br>
+					<input type="submit" name="submit" value="Submit review">
+				</fieldset>
+			</form>
 	</body>	
 	</html>
