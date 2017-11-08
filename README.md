@@ -9,7 +9,6 @@
 This is my first feedback.  
 
 ## 2017-11-08
-### Choose your own topic
-Provide your feedback.  
-Provide your second feedback.  
+### Assistance to total newbies
+So far, instructors have been accommodating.  
 
