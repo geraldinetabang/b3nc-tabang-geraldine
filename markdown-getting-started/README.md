@@ -40,14 +40,23 @@ echo ('Hello World!');
 
 ## Emoji
 
-	:monkey:
+:monkey:
 
-	:star2:
+:star2:
 
-	:speech_balloon:
+:speech_balloon:
 
-	:zap:
+:zap:
 
-	:v:
+:v:
+
+## Tables
+
+|firstname |lastname |
+|:---------|:--------|
+|geraldine |charizard|
+|nicky     |charizard|
+|riley     |charizard|
+
 
 

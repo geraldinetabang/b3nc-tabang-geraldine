@@ -2,12 +2,14 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box; /*to avoid overflowing elements)*/
+	/*box-sizing: content-box; (default value of box-sizing*/
 }
 
 .wrapper {
 	border:	1px solid blue;
-	width: 70%;
-	margin: 0 auto;
+	width: 48%;
+	margin: 20px auto;
 	padding: 10px;
 }
 
@@ -19,21 +21,15 @@ div.wrapper > div > div {
 	text-align: center;
 	border-radius: 5px;	
 	margin-top: 25px;
+	width: 50%;
 }
 
 h1,
 p {
-	background-color: #dde00e3;
+	background-color: #dde0e3;
 }
 
-em,
-strong {
-	background-color: #b2d6ff;
-	display: inline;
-}
-
-/*inline type to block type elements*/
-
+/*from inline to block type elements*/
 em,
 strong {
 	background-color: #b2d6ff;
@@ -56,9 +52,7 @@ h1 {
 	/*	border-left: 1px solid #5d6063;
 */
 	border:	1px solid #5d6063;
-
 	/*margin:	10px;*/
-
 }
 
 strong {
@@ -71,4 +65,12 @@ p {
 	/*margin-bottom: 50px;*/
 	margin-top: 25px;
 }
+
+span {
+	font-size: 2em; /*1em = 16px (default font size)*/
+ 	color: red;
+}
+
+
+
 
