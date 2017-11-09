@@ -47,6 +47,7 @@ echo ('Hello World!');
 :speech_balloon:
 
 :zap:
+<<<<<<< HEAD
 
 :v:
 
@@ -58,5 +59,9 @@ echo ('Hello World!');
 |nicky     |charizard|
 |riley     |charizard|
 
+=======
+
+:v:
+>>>>>>> 1f95a76cb9a85987429e12d6e7ed3a57df9bdae6
 
 
