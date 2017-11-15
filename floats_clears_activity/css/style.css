@@ -1,0 +1,91 @@
+
+.container {
+	clear: both;
+	background-color: black;
+	width: 700px;
+	height: 0 auto;
+	padding: 10px;
+}
+
+.column {
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	background-color: grey;
+	float: left;
+}
+
+.container2 {
+	clear: both;
+	background-color: black;
+	width: 700px;
+	height: 0 auto;
+	padding: 10px;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	padding: 10px 10px 50px 10px;
+	background-color: black;
+	border: 1px solid white;
+	float: left;
+	margin: 10px;
+}
+
+.box2 {
+	width: 150px;
+	height: 150px;
+	background-color: grey;
+	float: left;
+}
+
+.caption {
+	overflow: hidden;
+	color: white;
+	height: auto;
+	margin: 10px;
+	padding-bottom: 10px;
+}
+
+.container3 {
+	width: 700px;
+	height: auto;
+	padding: 10px;	
+	background-color: black;
+}
+
+.title {
+	color: white;
+	margin-bottom: 80px;
+	padding: 0;
+	float: left;
+	position: top;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	background-color: grey;
+}
+
+.username {
+	text-align: top;
+}
+
+.description {
+	color: white;
+	margin: 10px;
+	overflow: hidden;
+	float: left;
+}
+
+.clear:after {
+	content: ""; /*empty string or invisible element*/
+	clear: both;
+	display:block;
+
+
+
+

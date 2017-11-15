@@ -1,0 +1,17 @@
+.container2 {
+	clear: both;
+	background-color: black;
+	width: 700px;
+	height: 0 auto;
+	padding: 10px;
+
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	padding: 10px 10px 50px 10px;
+	background-color: black;
+	border-color: white;
+	float: left;
+}
