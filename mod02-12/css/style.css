@@ -71,6 +71,10 @@ ul > li > a {
 
 .banner {
 	background-color: #292826;
+	background-image: url("../image/Starbound.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: relative;
 	min-height: 700px;
 }
