@@ -1,0 +1,202 @@
+* {
+	box-sizing: border-box;
+}
+
+/* removes default margin to document */
+body {
+	margin: 0;
+	font-family: 'Abel', sans-serif;
+
+}
+
+.nav,
+.banner,
+.about,
+.services,
+.projects,
+.gallery,
+.footer {
+	padding: 30px;
+}
+
+.logo {
+	width: 140px;
+	height: 140px;
+	background-color: #e5ecea;
+}
+
+/*
+ *
+ * Navigation
+ *
+ */
+
+.nav {
+	background-color: #ad8961;
+	height: 100%;
+	width: 200px;
+	position: fixed;
+}
+
+ul {
+	padding-left: 0;
+}
+
+ul > li {
+	list-style: none;
+	background-color: #90d9e5;
+	margin-bottom: 2px;
+	text-align: center;
+	line-height: 48px;
+	/*padding: 20px;*/
+}
+
+ul > li > a {
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+	color: 	#043a62;
+
+}
+
+.main {
+	background-color: grey;
+	margin-left: 200px;
+}
+
+/*
+ *
+ * Banner
+ *
+ */
+
+.banner {
+	background-color: #292826;
+	position: relative;
+	min-height: 700px;
+}
+
+.box {
+	border: 5px solid white;
+	text-align: center;
+	width: 40%;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.about {
+	background-color: #043a62;
+	min-height: 300px;
+	color: #e5ecea;
+}
+
+/*
+ *
+ * Services
+ *
+ */
+
+.services {
+	background-color: #90d9e5;
+	min-height: 300px;
+	color: #043a62;
+}
+
+.services h3 {
+	margin-left: 5%;
+}
+
+.services p {
+	margin: auto 5% 5%;
+	text-align: justify;
+}
+
+.column {
+	border: 1px solid black;
+	width: 31%;
+	margin-left: 1.16%;
+	margin-right: 1.16%;
+	float: left;
+}
+
+.services img,
+.gallery img {
+	width: 100%;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.projects {
+	background-color: #e5ecea;
+	min-height: 300px;
+	color: #043a62;
+}
+
+/*
+ *
+ * Gallery
+ *
+ */
+
+.gallery {
+	background-color: #ad8961;
+	min-height: 400px;
+	color: ;
+}
+
+.gallery > .column {
+	width: 23%;
+	margin-left: 1%; 
+	margin-right: 1%;
+}
+
+.gallery h3 {
+	margin-left: 5%;
+}
+
+.gallery p {
+	margin: auto 5% 5%;
+	text-align: justify;
+}
+
+
+/*
+ *
+ * Footer
+ *
+ */
+
+.footer {
+	background-color: #292826;
+	min-height: 70px;
+	color: #e5ecea;
+}
+
+.contact {
+	float: right;
+}
+
+img[alt*="Social"] {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+h1 {
+	color: #e5ecea;
+	font-family: 'Pacifico', cursive;
+}
+
+.subtitle {
+	color: #e5ecea;
+	font-family: 'Poiret One', cursive;
+}
+
+
