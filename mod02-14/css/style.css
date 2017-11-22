@@ -1,0 +1,200 @@
+/* css reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+h3 {
+	margin: 15px auto;
+}
+
+.wrapper {
+	background-color: #fff; /* white */
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.item1,
+.item2 {
+	height: 150px;
+	width: 150px;
+	background-color: red;
+}
+
+.item2 {
+	border-left: 10px solid blue;
+	border-right: 10px solid blue;
+}
+
+.item3 {
+	border: 1px solid #000;
+	border-radius: 0 10px 0 10px;
+	padding: 10px;
+	display: inline;
+}
+
+.item4 {
+	background-color: blue;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.item5 {
+	background-color: pink;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 150px; 
+}
+
+.item6,
+.item7 {
+	width: 400px;
+	height: 600px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.item6 > img {
+	width: 80px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+/*.item7 {
+	width: 700px;
+	height: 300px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.item7 > img.sun {
+	width: 80px;
+	top: 0;
+	position: absolute;
+}
+
+.item7 > img.coconut {
+	width: 100px;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}*/
+
+.item7 >img {
+	width: 80px;
+}
+.item7 > img[src*="sun"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.item7 > img[src*="coconut"] {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.item8 {
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+	position: relative;
+	text-align: center;
+	line-height: 200px;
+}
+
+.item8 > img[src*="sun"] {
+	width: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.item8 > img[src*="coconut"] {
+	width: 40px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.item9 {
+	width: 150px;
+	border-radius: 50%;
+}
+
+.item10 {
+	border:	1px solid black;
+	height: 100px;
+	width: 400px;
+	position: relative;
+}
+
+.item10 > img {
+	height: 100px;
+	border-radius: 50%;
+}
+
+.item10 > span {
+	line-height: 100px;
+	position: absolute;
+}
+
+.item11 {
+	width: 400px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.item11 > img {
+	width: 50px;
+}
+
+.item11 > h2 {
+	margin: 15px;
+}
+
+.item12 {
+	width: 400px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.item12 > img {
+	width: 50px;
+}
+
+.item12 > .box >h2 {
+	margin: 15px;
+}
+
+.box {
+	background-color: pink;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
