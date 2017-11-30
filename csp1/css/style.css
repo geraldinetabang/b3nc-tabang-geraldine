@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+}
+
+.nav {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10px;
+	padding: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.container-fluid {
+	background-color: black;
+	margin-bottom: 0;
+}
+
+h1 {
+	font-family: 'Atomic Age', cursive;
+	color: black;
+  	text-shadow: 0 0 16px white;
+}
+
+body {
+	box-sizing: border-box;
+	background-color: black;
+}
+
+.header img {
+  float: left;
+  width: 30%;	
+}
+
+.header h1 {
+	padding-top: 60px;
+  	position: relative;
+  	font-size: 4.5vw;
+}
+
+
+
+
+
+
