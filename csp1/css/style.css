@@ -13,33 +13,31 @@
 }
 
 .container-fluid {
-	background-color: black;
 	margin-bottom: 0;
-}
-
-h1 {
-	font-family: 'Atomic Age', cursive;
-	color: black;
-  	text-shadow: 0 0 16px white;
 }
 
 body {
 	box-sizing: border-box;
-	background-color: black;
+/*	background-image: url("../img/starrynight.jpg");
+*/
+	background-color: black;	
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-size: 80%;
 }
 
 .header img {
-  float: left;
-  width: 30%;	
+	width: 70%;
+	display: block;
+	margin: 0 auto;
 }
 
-.header h1 {
-	padding-top: 60px;
-  	position: relative;
-  	font-size: 4.5vw;
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: yellow;
 }
-
-
 
 
 
