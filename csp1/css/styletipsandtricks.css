@@ -44,7 +44,7 @@ footer {
 	color: white;
 	text-align: justify;
 	/*margin-right: 300px;*/
-	background-image: url("../img/background.png");
+	background-image: url("../img/background3.png");
 	background-color: rgba(0, 0, 0, 0.3);
 	margin-top: 20%;
 	border-radius: 2%;
@@ -57,13 +57,14 @@ footer {
 	background-repeat: no-repeat;
 }
 
-.container2 h1, p {
+.container2 h1, ul > li {
 	text-shadow: 0 0 5px black;
 }
 
-.container2 p {
+.container2 ul > li {
 	font-size: 130%;
 }
+
 
 
 
