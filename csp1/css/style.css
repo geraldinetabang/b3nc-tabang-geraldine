@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+	box-sizing: border-box;
 }
 
 .nav {
@@ -27,6 +28,10 @@ footer {
 	color: white;
 	text-align: center;
 	font-size: 80%;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	position: fixed;
 }
 
 .header img {
