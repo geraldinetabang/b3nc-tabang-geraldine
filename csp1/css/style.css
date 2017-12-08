@@ -44,6 +44,41 @@ footer {
     color: yellow;
 }
 
+.well,
+.btn, {
+	border-radius: 0;
+}
+
+.well {
+	background-color: rgba(0, 1, 0, 0.3);
+}
+
+.well > h2 {
+	font-size: 1.5em;
+	color: white;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.media-body > p {
+	color: white;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.media > .media-center > img {
+	width: 5%;
+}
+
+h3 {
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.form-group {
+	color: yellow;
+	font-family: 'Rajdhani', sans-serif;
+}
+
 
 
 
